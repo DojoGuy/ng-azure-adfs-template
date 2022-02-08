@@ -37,6 +37,8 @@
     "location": {
       "type": "string",
       "allowedValues": [
+        "USGov Arizona",
+        "USGov Virginia",
         "Central US",
         "East US",
         "East US2",
@@ -92,7 +94,7 @@
     "adSubnetID": "[concat(variables('vnetID'),'/subnets/', parameters('adSubnetName'))]",
     "imageOffer": "WindowsServer",
     "imagePublisher": "MicrosoftWindowsServer",
-    "imageSKU": "2012-R2-Datacenter",
+    "imageSKU": "2019-Datacenter",
     "vnetID": "[resourceId('Microsoft.Network/virtualNetworks', parameters('virtualNetworkName'))]"
   },
  
