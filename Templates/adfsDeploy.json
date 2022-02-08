@@ -56,26 +56,10 @@
       "allowedValues": [
         "USGov Arizona",
         "USGov Virginia",
-        "Canada Central",
-        "Canada East",
-        "Central US",
-        "East US",
-        "East US2",
-        "North Central US",
-        "South Central US",
-        "West US",
-        "North Europe",
-        "West Europe",
-        "East Asia",
-        "Southeast Asia",
-        "Japan East",
-        "Japan West",
-        "Brazil South",
-        "Australia East",
-        "Australia Southeast",
-        "Central India",
-        "South India",
-        "West India"
+        "USGov Iowa",
+        "USGov Texas",
+        "USDoD Central",
+        "USDoD East"
       ],
       "metadata": {
         "Description": "The region to deploy the resources into"
