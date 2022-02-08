@@ -54,6 +54,8 @@
     "location": {
       "type": "string",
       "allowedValues": [
+        "USGov Arizona",
+        "USGov Virginia",
         "Canada Central",
         "Canada East",
         "Central US",
