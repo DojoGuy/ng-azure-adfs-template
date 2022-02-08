@@ -48,7 +48,7 @@
     },
     "storageAccountName": {
       "type": "string",
-      "defaultValue": "nromadfsstor",
+      "defaultValue": "ngbadfsstor",
       "metadata": { "description": "The name of the storage account into which the VMs will be deployed" }
     },
     "companyNamePrefix": {
