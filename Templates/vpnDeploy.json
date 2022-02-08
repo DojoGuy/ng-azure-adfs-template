@@ -64,6 +64,8 @@
         "description": "Region where the resources will be deployed"
       },
       "allowedValues": [
+        "USGov Arizona",
+        "USGov Virginia",
         "Central US",
         "East US",
         "East US2",
