@@ -67,7 +67,7 @@
     },
     "vmSize": {
       "type": "string",
-      "defaultValue": "Standard_D1",
+      "defaultValue": "Standard_D2s_v3",
       "metadata": {
         "description": "Select a VM SKU"
       }
