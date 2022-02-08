@@ -366,7 +366,7 @@
           "osDisk": {
             "name": "osdisk",
             "vhd": {
-              "uri": "[concat('http://',parameters('storageAccountName'),'.blob.core.windows.net/vhds/', parameters('adfsVMName'), 'osdisk', copyindex(), '.vhd')]"
+              "uri": "[concat('http://',parameters('storageAccountName'),'.blob.core.usgovcloudapi.net/vhds/', parameters('adfsVMName'), 'osdisk', copyindex(), '.vhd')]"
             },
             "caching": "ReadWrite",
             "createOption": "FromImage"
@@ -382,7 +382,7 @@
         "diagnosticsProfile": {
           "bootDiagnostics": {
             "enabled": "true",
-            "storageUri": "[concat('http://',parameters('storageAccountName'),'.blob.core.windows.net')]"
+            "storageUri": "[concat('http://',parameters('storageAccountName'),'.blob.core.usgovcloudapi.net')]"
           }
         }
       },
@@ -451,7 +451,7 @@
           "osDisk": {
             "name": "osdisk",
             "vhd": {
-              "uri": "[concat('http://',parameters('storageAccountName'),'.blob.core.windows.net/vhds/', parameters('wapVMName'), 'osdisk', copyindex(), '.vhd')]"
+              "uri": "[concat('http://',parameters('storageAccountName'),'.blob.core.usgovcloudapi.net/vhds/', parameters('wapVMName'), 'osdisk', copyindex(), '.vhd')]"
             },
             "caching": "ReadWrite",
             "createOption": "FromImage"
@@ -467,7 +467,7 @@
         "diagnosticsProfile": {
           "bootDiagnostics": {
             "enabled": "true",
-            "storageUri": "[concat('http://',parameters('storageAccountName'),'.blob.core.windows.net')]"
+            "storageUri": "[concat('http://',parameters('storageAccountName'),'.blob.core.usgovcloudapi.net')]"
           }
         }
       }
