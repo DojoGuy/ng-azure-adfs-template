@@ -4,12 +4,14 @@
   "parameters": {
     "assetLocation": {
       "type": "string",
-      "defaultValue": "https://raw.githubusercontent.com/nromyn/azure-adfs-template/master/",
+      "defaultValue": "https://raw.githubusercontent.com/b4dg4i/azure-adfs-template/master/",
       "metadata": {"description": "This is the location in which all the linked templates are stored."}
     },
     "location": {
       "type": "string",
       "allowedValues": [
+        "USGov Virginia",
+        "USGov Arizona",
         "Central US",
         "East US",
         "East US2",
@@ -182,12 +184,12 @@
     "gatewaySubnetName": "gatewaySubnet",
     "imageOffer": "WindowsServer",
     "imagePublisher": "MicrosoftWindowsServer",
-    "imageSKU": "2012-R2-Datacenter",
+    "imageSKU": "2019-Datacenter",
     "publicIPAddressDNSName": "[tolower(concat(parameters('companyNamePrefix'),'-adfs'))]",
     "connectionName": "[tolower(concat(parameters('companyNamePrefix'),'-VPN'))]",
     "publicIPAddressID": "[resourceId('Microsoft.Network/publicIPAddresses',variables('publicIPAddressDNSname'))]",
     "rdpIPAddressDNSName": "[tolower(concat(parameters('companyNamePrefix'),'-adfs-rdp'))]",
-    "storageAccountType": "Standard_GRS",
+    "storageAccountType": "Standard_LRS",
     "subnets": [
       {
         "name": "[variables('adSubnetName')]",
