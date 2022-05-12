@@ -154,9 +154,9 @@
 
   },
   "variables": {
-    "adNSGName": "INT-AD",
-    "dmzNSGName": "DMZ-WAP",
-    "adfsNSGName": "INT-ADFS",
+    "adNSGName": "nsg-ad",
+    "dmzNSGName": "nsg-dmz-wap",
+    "adfsNSGName": "nsg-adfs",
     "adSubnetName": "adSubnet",
     "adfsSubnetName": "adfsSubnet",
     "dmzSubnetName": "dmzSubnet",
