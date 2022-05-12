@@ -44,7 +44,7 @@
     },
     "addcVMNameSuffix": {
       "type": "string",
-      "defaultValue": "DC",
+      "defaultValue": "dc",
       "metadata": { "description": "The suffix of the DC: <COMPANYNAMEPREFIX> + -ADDCNAMESUFFIX + index" }
     },
 
@@ -75,7 +75,7 @@
     "networkInterfaceName": {
       "type": "string",
       "metadata": { "description": "This is the name of the Network interfaces." },
-      "defaultValue": "NIC"
+      "defaultValue": "nic"
     },
     "adIPs": {
       "type": "array",
