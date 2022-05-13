@@ -9,15 +9,15 @@
 
     "adfsLoadBalancerName": {
       "type": "string",
-      "defaultValue": "ADFS-LB"
+      "defaultValue": "lb-adfs"
     },
     "adfsNSGName": {
       "type": "string",
-      "defaultValue": "INT-ADFS"
+      "defaultValue": "nsg-adfs"
     },
     "dmzNSGName": {
       "type": "string",
-      "defaultValue": "DMZ-WAP"
+      "defaultValue": "nsg-dmz-wap"
     },
     "adfsSubnetName": {
       "type": "string",
