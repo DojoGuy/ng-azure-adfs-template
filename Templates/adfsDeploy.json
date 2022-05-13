@@ -106,7 +106,7 @@
     },
     "wapLoadBalancerName": {
       "type": "string",
-      "defaultValue": "WAP-LB"
+      "defaultValue": "lb-wap"
     },
     "wapVMName": {
       "type": "string",
