@@ -214,7 +214,7 @@
         }
       }
     ],
-    "virtualNetworkName": "[concat(parameters('companyNamePrefix'), '-vnet')]",
+    "virtualNetworkName": "ngbva-vnet-identity-mlz",
     "vnetID": "[resourceId('Microsoft.Network/virtualNetworks', variables('virtualNetworkName'))]",
     "vnetTemplateURI": "[concat(parameters('assetLocation'),'/Templates/deployVNet.json')]",
     "vnetDNSTemplateURI": "[concat(parameters('assetLocation'),'/Templates/deployVNetDNS.json')]",
