@@ -94,7 +94,7 @@
     },
     "virtualNetworkName": {
       "type": "string",
-      "defaultValue": "azureVnet",
+      "defaultValue": "ngbva-vnet-identity-mlz",
       "metadata": {
         "description": "Arbitrary name for the Azure Virtual Network"
       }

@@ -91,7 +91,7 @@
     },
     "virtualNetworkName": {
       "type": "string",
-      "defaultValue": "vnet"
+      "defaultValue": "ngbva-vnet-identity-mlz"
     },
     "vmSize": {
       "type": "string",
