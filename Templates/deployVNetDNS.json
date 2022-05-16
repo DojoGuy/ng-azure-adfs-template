@@ -55,7 +55,7 @@
     "dmzSubnetId": "[concat(variables('vnetID'),'/subnets/',variables ('dmzSubnetName'))]",
     "adSubnetId": "[concat(variables('vnetID'),'/subnets/',variables ('adSubnetName'))]",
     "dhcpIPs": [ "10.0.1.4", "10.0.1.5" ],
-    "virtualNetworkName": "[concat(parameters('companyNamePrefix'), '-vnet')]",
+    "virtualNetworkName": "ngbva-vnet-identity-mlz",
     "vnetID": "[resourceId('Microsoft.Network/virtualNetworks',variables('virtualNetworkName'))]"
   },
 
