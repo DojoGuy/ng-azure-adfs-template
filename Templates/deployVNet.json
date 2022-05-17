@@ -726,7 +726,7 @@
 
         "subnets": "[parameters('subnets')]"
       }
-    },
+    }
     
     
   ]
