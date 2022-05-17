@@ -44,7 +44,7 @@
 * DSC to install the WAP is not enabled
 
 ====
-<a href="https://portal.azure.us/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fb4dg4i%2Fazure-adfs-template%2Fmaster%2FTemplates%2FazureDeploy.json" target="_blank">
+<a href="https://portal.azure.us/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fdojoguy%2Fng-azure-adfs-template%2Fmaster%2FTemplates%2FazureDeploy.json" target="_blank">
     <img src="http://azuredeploy.net/deploybutton.png"/>
 </a>
 
