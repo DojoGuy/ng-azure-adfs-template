@@ -170,7 +170,7 @@
     "gatewaySubnetName": "gatewaySubnet",
     "imageOffer": "WindowsServer",
     "imagePublisher": "MicrosoftWindowsServer",
-    "imageSKU": "2019-Datacenter",
+    "imageSKU": "2022-Datacenter",
     "publicIPAddressDNSName": "[tolower(concat(parameters('companyNamePrefix'),'-adfs'))]",
     "connectionName": "[tolower(concat(parameters('companyNamePrefix'),'-VPN'))]",
     "publicIPAddressID": "[resourceId('Microsoft.Network/publicIPAddresses',variables('publicIPAddressDNSname'))]",
